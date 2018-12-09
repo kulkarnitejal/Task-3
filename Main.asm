@@ -19,8 +19,6 @@
 ; enable keyboard interrupts
 	LD R0, KBISR
 	STI R0, KBIVE
-
-; start of actual program
 	
 	
 loop	LDI R0, GLOVAR
