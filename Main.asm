@@ -21,12 +21,7 @@
 	STI R0, KBIVE
 	
 	
-loop	LDI R0, GLOVAR
-	BRZ loop
-	TRAP X21
-	AND R1,R1,#0
-	STI R1, GLOVAR
-;process R0
+loo
 	;check for start codon
 	LD R1, ascA
 	ADD R1,R1,R0
